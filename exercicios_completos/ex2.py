@@ -29,7 +29,7 @@ def procura(palavra):
 
 		for l in linhas:
 			print(f"<p>{l}</p>\n")	
-		print("Numero total de ocorrencias da palavra" + palavra + ": " + num_ocorrencias)
+	print("Numero total de ocorrencias da palavra" + palavra + ": " + num_ocorrencias)
 
 
 
