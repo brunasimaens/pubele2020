@@ -1,0 +1,112 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red252\green41\blue19;\red255\green255\blue255;\red252\green117\blue255;
+}
+{\*\expandedcolortbl;;\cssrgb\c100000\c25745\c7993;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c100000\c56882\c100000;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10780\viewh6900\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 Import re - regular expressions\
+Import sys - ler comandos da linha de comando\
+\
+^ = inicio linha \
+.* - sequ\'eancia de qq caracter \
+\
+^.* = primeira linha \
+Dissemos que era substituido por:\
+\\1 - expandir grupo ( aquilo que fez matching com a primeira linha)\
+\
+Correr c\'f3digo:\
+Python3 makexdxf.py dicionario_medico.txt > _.xdxf\
+\
+Xdxd - formato de intercambio de dicionarios \
+\
+<ar> abre artigo\
+</ar> fecha artigo\
+\
+\
+comando: sudo apt install xmllint\
+Sudo apt install libxml2 -utils\
+\
+\'97\'97\'97\'97\'97\'97\
+Substituir no content os caracteres esquisitos:\
+\
+Content = sub (r\'92\\f\'92,\'92\\n\'92, content)\
+\
+\
+Substituir o form feed (\'91f ) por uma linha em branco \
+f\'92 \'97\'97> caracteres esquisitos\
+r\'92 \'97-> garantir que \'e9 uma express\'e3o regular que n\'e3o seja estragada pelo caminho\
+\
+Xml invalido:\
+Nao podemos usar > e < (maiores e menores).\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 Content = sub (r\'92\\f\'92,\'92\\n\'92, content)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 # \'93<\'93      \'93&lt;\'94         \'93>\'94       \'93&gt\'94;\
+ ( < \'e9 substitu\'eddo por less than e > substitu\'eddo por greater than)\
+\
+\
+(No vi / > - pesquisa por >) \
+\
+\
+Instalar: golden dict ( leitor de dicion\'e1rios que conhe\'e7a xml)\
+\
+\cb2 Treinar utiliza\'e7\'e3o express\'f5es regulares.\cb3 \
+\
+Def ocorrencia(file):\
+	with open(file) as f:\
+		content = f.read()\
+\
+\cb4 	## queremos que diga quantas vezes cada palavra aparece\
+	# [a-z]  a|b|\'85.z\
+	# \\w     [a - zA- z0- 9] alfanum\'e9ricos\
+	# \\W tudo menos \\w\
+	# \\s   espa\'e7os, newline, tab\
+	# \\d   [0,9]\
+	# . 	tudo menos \\n(newline)\
+	# X*   *=repeti\'e7\'f5es 0 ou mais \
+	# X+   repeti\'e7\'f5es de 1 at\'e9 infinito \{1,\}\
+	# uma palavra seria(sequ\'eancia de caracteres) == \\w+(todas as palavras)\cb3 \
+\
+	for palavra in findall(r\'92\\w+\'92, content):\
+		print(palavra)\
+\
+oco(sys.argv[1]) \
+## aqui invocamos a fun\'e7\'e3o\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \cb1 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \cb3 # conta ocorr\'eancias \'e9 um dicionario vazio\
+conta_oco = \{\} \cb1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \cb3 Def ocorrencia(file):\
+	with open(file) as f:\
+		content = f.read()\
+	## aqui s\'f3 imprime\
+	for palavra in findall(r\'92\\w+\'92, content):\
+		print(palavra)\
+	## para contar as ocorr\'eancias da palavra \
+	if palavra in conta_oco:\
+		conta_oco[palavra] += 1\
+	else:\
+		conta_oco[palavra] = 1\
+	print(conta_oco)\
+\
+oco(sys.argv[1]) \
+\
+\
+\
+\
+\
+\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \cb1 \
+}

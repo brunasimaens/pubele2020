@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<report>
+	<title>TPC1</title>
+	<date>29/10/2020</date>
+	<team>
+		<element>
+			<name>Bruna Ramoa</name>
+			<number>80825</number>
+			<email>brunamiguelsimaens@hotmail.com</email>
+		</element>
+		<element>
+			<name>aaa</name>
+			<number>80835</number>
+			<email>aaaa@hotmail.com</email>
+		</element>
+	</team>
+	<description>Primeiro trabalho</description>
+</report>
