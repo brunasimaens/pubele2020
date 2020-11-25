@@ -1,0 +1,3 @@
+De forma a visualizar os resultados obtidos através do programa python elaborado, requere-se que contenha na mesma pasta os ficheiros: parte1.txt, parte2.txt, reports.xml e xml2html.py. 
+Para correr o programa, basta correr no terminal python3 xml2html.py.
+Correndo este programa, serão produzidos 4 links html devido à existência de 4 relatórios no documento reports.xml. Será também produzido um link chamado índice. No índice poderão ser visualizados os 4 links htmls gerados e o código python utilizado na execução do trabalho. É de notar que o relatório 4 contem uma breve explicação da execução do trabalho. 
