@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio>
+  <report>
+    <title>Relatório 1</title>
+    <date>12-11-2020</date>
+    <team>
+      <element>
+        <name>Bruna Ramoa</name>
+        <number>80825</number>
+        <email>a80825@alunos.uminho.pt</email>
+      </element>
+      <element>
+        <name>Angélica Rodrigues</name>
+        <number>83729</number>
+        <email>a83729@alunos.uminho.pt</email>
+      </element>
+      <element>
+        <name>Bruno Couto</name>
+        <number>83940</number>
+        <email>a83940@alunos.uminho.pt</email>
+      </element>
+    </team>
+    <description>Este é o primeiro relatorio do trabalho prático.</description>
+  </report>
+  <report>
+    <title>Relatório 2</title>
+    <date>13-11-2020</date>
+    <team>
+      <element>
+        <name>Bruna Ramoa</name>
+        <number>80825</number>
+        <email>a80825@alunos.uminho.pt</email>
+      </element>
+      <element>
+        <name>Angélica Rodrigues</name>
+        <number>83729</number>
+        <email>a83729@alunos.uminho.pt</email>
+      </element>
+      <element>
+        <name>Bruno Couto</name>
+        <number>83940</number>
+        <email>a83940@alunos.uminho.pt</email>
+      </element>
+    </team>
+    <description>Este é o segundo relatorio do trabalho prático</description>
+  </report>
+  <report>
+    <title>Relatório 3</title>
+    <date>14-11-2020</date>
+    <team>
+      <element>
+        <name>Bruna Ramoa</name>
+        <number>80825</number>
+        <email>a80825@alunos.uminho.pt</email>
+      </element>
+      <element>
+        <name>Angélica Rodrigues</name>
+        <number>83729</number>
+        <email>a83729@alunos.uminho.pt</email>
+      </element>
+      <element>
+        <name>Bruno Couto</name>
+        <number>83940</number>
+        <email>a83940@alunos.uminho.pt</email>
+      </element>
+    </team>
+    <description>Este é o terceiro relatorio do trabalho prático</description>
+  </report>
+  <report>
+    <title>Relatório 4: Como o trabalho foi realizado</title>
+    <date>23-11-2020</date>
+    <team>
+      <element>
+        <name>Bruna Ramoa</name>
+        <number>80825</number>
+        <email>a80825@alunos.uminho.pt</email>
+      </element>
+      <element>
+        <name>Angélica Rodrigues</name>
+        <number>83729</number>
+        <email>a83729@alunos.uminho.pt</email>
+      </element>
+      <element>
+        <name>Bruno Couto</name>
+        <number>83940</number>
+        <email>a83940@alunos.uminho.pt</email>
+      </element>
+    </team>
+    <description> O trabalho prático 1 tinha como objetivo a criação de um programa capaz de converter o conteúdo de um documento XML para um documento HTML. Com esse objetivo, inicialmente foi criado um ficheiro XML com uma adequada. Esta estrutura consiste num portfólio constituído por 4 relatórios; Os 3 iniciais são relatórios de exemplo, sem conteúdo significante. O último relatório contém a explicação do trabalho. Após a elaboração do documento XML, foi elaborada uma script em python que permite a sua "conversão": independentemente do número de relatórios existentes no XML os respetivos HTML são gerados.
+Para a elaboração do programa python utilizou-se o módulo Jinja e Beautiful Soup. O módulo Jinja permitiu criar um template geral para todos os documentos HTML. Esse template é preenchido de acordo com a informação que se encontra no documento XML. O módulo Beautiful Soup foi utilizado para fazer uma pesquisa no documento XML.
+Em suma, foram criados dicionários com o conteúdo do xml, e utilizando esses dicionários, foram preenchidos vários templates html, um para cada relatorio. Foi também criado um índice automaticamente contendo todos os relatórios adicionados.
+Adicinou-se, também, ao índice um link para um ficheiro. Este ficheiro contém o código python utilizado para a elaboração do trabalho. No índice é possível aceder, em separado, a cada relatório.
+Por último, num ponto de vista estético, ao template html foram adicionados alguns pormenores:a cor de fundo da tela, a fonte da letra utilizada, o tamanhos das letras, bem como o seu estilo, uma imagem, o logotipo da Escola de Engenharia da Univercidade do Minho, com um link associado à sua pagina na Internet. Obteve-se, assim, um trabalho final com bom aspeto e prático.
+    </description>
+  </report>
+</portfolio>
